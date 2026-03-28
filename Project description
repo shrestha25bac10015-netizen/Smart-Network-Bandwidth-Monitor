@@ -1,0 +1,212 @@
+# 📡 Smart Network Bandwidth Monitor
+
+# Project Description
+
+Smart Network Bandwidth Monitor is a Python-based system monitoring tool that tracks internet usage in real-time. The project helps users identify which applications are consuming internet bandwidth, monitor upload and download speeds, and analyze network performance through visual graphs.
+
+Slow internet connection is a common problem faced by students and professionals. Often, background applications consume network bandwidth without the user's knowledge. This project solves this issue by providing real-time monitoring and visualization of network usage.
+
+The system continuously collects network data from the computer and displays upload and download speed along with graphical representation. This helps users understand network behavior and detect unusual usage patterns.
+
+---
+
+# Project Objectives
+
+• Monitor real-time network bandwidth
+• Track upload and download speed
+• Visualize network usage
+• Detect unusual internet consumption
+• Help users understand slow internet issues
+
+---
+
+# Problem Statement
+
+Users often face the following problems:
+
+• Slow internet connection
+• Unknown applications using bandwidth
+• No real-time tracking of network usage
+• Difficulty identifying data consumption
+
+This project provides a simple solution by building a Smart Network Bandwidth Monitor that displays real-time internet usage and graphical analysis.
+
+---
+
+# Technologies Used
+
+The project is developed using Python and the following libraries:
+
+### Python
+
+Python is used as the main programming language because it supports system-level programming and real-time monitoring.
+
+### Streamlit
+
+Streamlit is used to build the user interface and display live network data.
+
+### Psutil
+
+Psutil is used to collect system and network usage information.
+
+### Pandas
+
+Pandas is used for storing and managing real-time data.
+
+### Matplotlib
+
+Matplotlib is used for plotting graphs and visualizing network usage.
+
+---
+
+# How the Project Works
+
+The project works in the following steps:
+
+### Step 1: Network Data Collection
+
+The system collects:
+
+• Bytes sent
+• Bytes received
+• Upload speed
+• Download speed
+
+This is done using the psutil library.
+
+---
+
+### Step 2: Speed Calculation
+
+The system calculates:
+
+Upload Speed = Bytes Sent Difference / Time
+Download Speed = Bytes Received Difference / Time
+
+This provides real-time network speed.
+
+---
+
+### Step 3: Data Storage
+
+The system stores:
+
+• Time
+• Upload speed
+• Download speed
+
+This data is stored in a dataframe.
+
+---
+
+### Step 4: Visualization
+
+The system generates:
+
+• Real-time graphs
+• Speed trends
+• Network usage charts
+
+This helps users analyze network performance.
+
+---
+
+# Features
+
+• Real-time network monitoring
+• Upload speed tracking
+• Download speed tracking
+• Live graph visualization
+• Simple user interface
+• Lightweight application
+
+---
+
+# Expected Output
+
+When the project runs, the user will see:
+
+📡 Smart Network Bandwidth Monitor
+
+Upload Speed: 120 KB/s
+Download Speed: 350 KB/s
+
+Live Graph:
+
+Time vs Upload Speed
+Time vs Download Speed
+
+The graph updates continuously in real-time.
+
+---
+
+# Applications
+
+This project can be used by:
+
+• Students
+• Developers
+• Network administrators
+• General users
+
+---
+
+# Advantages of the Project
+
+• Helps detect slow internet issues
+• Identifies bandwidth consumption
+• Real-time monitoring
+• Easy to use
+• Lightweight and fast
+• Practical real-world application
+
+---
+
+# Project Structure
+
+```
+Smart-Network-Bandwidth-Monitor/
+│
+├── network_monitor.py
+├── README.md
+```
+
+---
+
+# Installation
+
+Install required libraries:
+
+```
+pip install streamlit psutil pandas matplotlib
+```
+
+Run the project:
+
+```
+streamlit run network_monitor.py
+```
+
+---
+
+# Future Enhancements
+
+• App-wise network usage
+• Data usage alerts
+• Daily usage reports
+• Network performance prediction
+• Export usage data
+
+---
+
+# Conclusion
+
+Smart Network Bandwidth Monitor is a practical and technical project that helps users monitor internet usage in real-time. The project improves network management, detects unusual activity, and provides useful insights into bandwidth consumption. This makes it a strong and useful B.Tech level project.
+
+---
+
+# Author
+
+Name: Shrestha Sarkar
+Course: B.Tech ECE(AI and Cybernetics)
+Project Type: BYOP Project
